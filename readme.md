@@ -1,3 +1,3 @@
-# Small script for backtesting quantitative trading  strategies
+# Small script for backtesting quantitative trading strategies with interactive plot via plotly
 
-Please see Backtest ipython notebook
+Import Backtest class to your script. Please see ipython notebook for example of use.
