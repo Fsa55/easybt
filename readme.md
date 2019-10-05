@@ -66,6 +66,7 @@ Some numbers to evaluate our result.
 ```python
 AAPL_Bol_Bands.stats
 ```
+```
 {'Num of closed trades': 32,
  'Num of Win trades': 24,
  'Num of Loss trades': 8,
@@ -73,18 +74,19 @@ AAPL_Bol_Bands.stats
  'Win rate [%]': 0.75,
  'Sharp ratio': 0.02,
  'Max drowdown [%]': -1.92}
-
+```
 Trades list.
 ```python
 AAPL_Bol_Bands.trades_df.head(3)
 ```
+```
 2010-04-27	33.6758	SELL
 2010-05-07	30.3113	EXIT_SELL
 2010-06-21	34.7206	SELL
-
+```
 Plot the results
 ```python
 AAPL_Bol_Bands.plot(render = None,sub_ind=[['STD50']])
 # render = 'browser' to open chart in new default browser window
 ```
-![](https://github.com/Fsa55/easybt/tree/master/easybt/backtest.png)
+![]([![](https://raw.githubusercontent.com/Fsa55/easybt/master/backtest.png)](https://raw.githubusercontent.com/Fsa55/easybt/master/backtest.png))
