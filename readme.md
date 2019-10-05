@@ -89,4 +89,4 @@ Plot the results
 AAPL_Bol_Bands.plot(render = None,sub_ind=[['STD50']])
 # render = 'browser' to open chart in new default browser window
 ```
-![]([![](https://raw.githubusercontent.com/Fsa55/easybt/master/backtest.png)](https://raw.githubusercontent.com/Fsa55/easybt/master/backtest.png))
+![](https://raw.githubusercontent.com/Fsa55/easybt/master/backtest.png)
